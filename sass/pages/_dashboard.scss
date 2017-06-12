@@ -317,15 +317,49 @@ hr{
 {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   border-radius: 10px;
-  background-color: #F5F5F5;
+  background-color: #D3D3D3;
 }
 
 
+.style-1::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: #D3D3D3;
+}
+
+.style-1::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #A9A9A9;
+}
+
+.contact-section{
+  min-height: 1200px;
+}
+.scrollbar-1
+{
+  border-radius: 10px;
+  height: 700px;
+ 
+  overflow-y: scroll;
+  margin-bottom: 15px;
+}
+
 .scrollbar
 {
-  
+  border-radius:10px;
   height: 700px;
   width: 100%;
   overflow-y: scroll;
   margin-bottom: 15px;
+}
+.action-on-form{
+      position: absolute;
+    right: 19px;
+}
+.cancel-btn,
+.update-btn {
+color:white;
+background-color:black;
 }
