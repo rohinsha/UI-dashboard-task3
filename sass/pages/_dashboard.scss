@@ -111,6 +111,19 @@ hr{
 }
   }
 
+.logout {
+ 
+  position: absolute;
+    bottom: 68px;
+    font-size: 17px;
+    padding: 0 25px;
+
+    .icon-switch {
+      padding-right: 20px;
+    }
+}
+
+
 .letter-wise-details {
 	button{
 	    background-color: red;
