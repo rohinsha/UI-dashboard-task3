@@ -38,12 +38,22 @@ background-color: $darkblue;
   margin: 18px 20px 10px;
 }
 
+.main-layout{
+	.row{
+	.member-list,
+	.member-button {
+ border:1px solid white !important;
+ }
+ }
+}
+
 .left-sidebar {
   background-color: $darkgray;
   height: 100%;
   position: fixed;
   width: 240px;
  color:white;
+ 
   h3 {
     font-size: 28px;
     color: white;
@@ -92,7 +102,9 @@ hr{
      }
    }
 }
-
+.main-layout{
+	color:white;
+}
 .list-group {
 	p{
 	font-size:24px;
