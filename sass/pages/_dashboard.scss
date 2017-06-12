@@ -15,7 +15,7 @@ body {
  }
 
 .main-layout {
-margin-left: 220px;
+margin-left: 240px;
 background-color: $darkblue;
 }
 
@@ -42,8 +42,23 @@ background-color: $darkblue;
   background-color: $darkgray;
   height: 100%;
   position: fixed;
-  width: 220px;
+  width: 240px;
+ color:white;
+  h3 {
+    font-size: 28px;
+    color: white;
+    margin-left: 35px;
+  }
+  h4{
+      font-size: 18px;
+    margin-left: 35px;
 }
+
+hr{
+	border:1px solid white;
+}
+  }
+
 
 .map-1 {
   background: $analysis;
@@ -78,25 +93,40 @@ background-color: $darkblue;
    }
 }
 
-
-
-
-
-
-
-
-
- 
-
-
-  
-
-
-
+.list-group {
+	p{
+	font-size:24px;
+	    margin: 0 0 7px 35px;
+	    span {
+	    padding-left: 20px;
+        position: relative;
+        font-size: 30px;
+        top: 6px;
+	   }
+	}
+}
+.heading-icon {
+    color: white;
+    position: relative;
+    font-size: 50px;
+   
+    margin-left: 60px;
+    margin-top: 20px;
+  &:before {
+    position: absolute;
+    content: "";
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    color: white;
+    border: 4px solid white;
+    left: -20px;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .left-sidebar {
-    left: -220px;
+    left: -240px;
 	 }
 
   .main-layout {
