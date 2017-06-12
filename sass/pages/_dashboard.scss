@@ -323,7 +323,7 @@ hr{
 
 .style-1::-webkit-scrollbar
 {
-  width: 12px;
+  width: 9px;
   background-color: #D3D3D3;
 }
 
@@ -382,3 +382,8 @@ background-color:black;
     right: 20px;
     font-size: 15px;
   }
+.contact-section{
+  form{
+    padding:20px 5px;
+  }
+}
