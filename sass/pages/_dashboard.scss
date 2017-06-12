@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $lightgray;
+  margin: 0;
+  padding: 0;
+  padding-top: 64px;
+	}
+
+.nav-block {
+  margin-bottom: 0;
+ }
+
+.main-layout {
+margin-left: 220px;
+background-color: $darkblue;
+}
+
+.logo {
+  height: 63px;
+  padding: 10px 30px;
+
+  img {
+    width: 170px;
+	}
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+	}
+
+.heading {
+  color: $black;
+  margin: 18px 20px 10px;
+}
+
+.left-sidebar {
+  background-color: $darkgray;
+  height: 100%;
+  position: fixed;
+  width: 220px;
+}
+
+.map-1 {
+  background: $analysis;
+  border-radius: 100%;
+  font-size: 30px;
+  margin-left: -7px;
+  padding: 6px;
+}
+
+.active {
+  background-color: $make;
+}
+
+.left-side-nav {
+  margin-top: 20px;
+
+  li {
+    font-size: 18px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 25px;
+  .map {
+      color: $whitish;
+      font-size: 20px;
+      padding-right: 20px;
+     }
+
+    a {
+      color: $whitish;
+      text-decoration: none;
+     }
+   }
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+  
+
+
+
+
+@media screen and (max-width: 767px) {
+  .left-sidebar {
+    left: -220px;
+	 }
+
+  .main-layout {
+    margin-left: 0;
+	 }
+ }
+
+
+
+
+
+  
+
+
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .icon-search {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .icon-search  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+
