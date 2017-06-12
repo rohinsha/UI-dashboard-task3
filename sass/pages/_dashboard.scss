@@ -335,12 +335,12 @@ hr{
 }
 
 .contact-section{
-  min-height: 1200px;
+  min-height: 2000px;
 }
 .scrollbar-1
 {
   border-radius: 10px;
-  height: 700px;
+  height: 750px;
  
   overflow-y: scroll;
   margin-bottom: 15px;
@@ -367,4 +367,10 @@ background-color:black;
 .delete-org{
       position: relative;
     top: 45px;
+}
+
+.transfer-heading{
+  color:black;
+  text-align: left;
+  margin-top: 65px;
 }
