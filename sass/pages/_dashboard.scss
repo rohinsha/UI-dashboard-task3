@@ -26,8 +26,8 @@ body {
 
 
 .content-wrapper {
-  background-color: $darkblue;
-  color: white;
+  background-color: $white;
+  color: $black;
   height: 800px;
   margin-left: 240px;
 
@@ -70,6 +70,7 @@ body {
 
   p {
     font-size: 25px;
+    margin-top: 10px;
   }
 }
 
@@ -83,6 +84,7 @@ body {
   padding: 10px 8px;
   position: absolute;
   right: 15px;
+  margin-top: 6px;
 }
 
 .left-sidebar {
@@ -151,10 +153,11 @@ body {
   min-height: 1550px;
 
   button {
-	  background-color: red;
+	  background-color: $gray;
     font-size: 15px;
     position: absolute;
     right: 20px;
+    color: $white;
   }
 
   .row {
@@ -249,10 +252,10 @@ body {
 }
 
 .name-initials {
-  background-color: red;
-  border: 1px solid yellow;
+  background-color: $darkgray;
+  border: 1px solid $darkgray;
   border-radius: 100%;
-  color: blue;
+  color: $white;
   font-size: 26px;
   margin-top: 50px;
   padding: 3px 10px;
@@ -355,10 +358,11 @@ body {
  }
 
 .make-owner-btn {
-  background-color: red;
+  background-color: $gray;
   font-size: 15px;
   position: absolute;
   right: 20px;
+  color: $white;
 }
 
 .form-group {
